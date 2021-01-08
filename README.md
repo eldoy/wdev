@@ -6,7 +6,7 @@ Made to work with the [Waveorb Web Development Framework.](https://waveorb.com)
 
 ### Usage
 
-Copy the `dev.js` file to `app/assets/js` and include it with:
+Copy the `dev.js` file to `app/assets/js` and include it in your layout (`default.js`) with:
 
 ```js
 ${process.env.NODE_ENV === 'development' ? '<script src="/js/dev.js"></script>' : ''}
